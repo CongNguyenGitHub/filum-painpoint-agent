@@ -1,0 +1,86 @@
+[
+  {
+      "id": "VoC_Surveys_PostPurchase",
+      "name": "Automated Post-Purchase Surveys",
+      "category": "Voice of Customer",
+      "sub_category": "Surveys",
+      "description": "Automatically sends surveys via email or SMS after purchase to collect feedback consistently",
+      "keywords": ["post-purchase", "survey", "feedback", "automated", "consistent collection", "email", "SMS"],
+      "sample_pain_points": ["struggling to collect customer feedback consistently after a purchase"],
+      "docs_link": "https://filum.ai/docs/voc-surveys",
+      "supported_channels": ["Email", "SMS", "Zalo"],
+      "related_features": ["Insights_Experience_Analysis"]
+  },
+  {
+      "id": "AI_Agent_FAQ",
+      "name": "AI Agent for FAQ & First Response",
+      "category": "AI Customer Service",
+      "sub_category": "AI Inbox",
+      "description": "AI-powered agent that handles frequently asked questions and provides instant first responses",
+      "keywords": ["AI agent", "FAQ", "first response", "automated", "deflect", "repetitive questions", "support"],
+      "sample_pain_points": ["support agents are overwhelmed by high volume of repetitive questions"],
+      "docs_link": "https://filum.ai/docs/ai-customer-service",
+      "supported_channels": ["Web", "Mobile", "Zalo", "Email"],
+      "related_features": ["Tickets_Management"]
+  },
+  {
+      "id": "Journey_Experience_Analysis",
+      "name": "Customer Journey Experience Analysis",
+      "category": "Insights",
+      "sub_category": "Experience",
+      "description": "Analyzes feedback and data across customer journeys to identify friction points and touchpoint issues",
+      "keywords": ["customer journey", "touchpoints", "friction", "experience analysis", "frustration", "multi-channel"],
+      "sample_pain_points": ["no clear idea which customer touchpoints are causing the most frustration"],
+      "docs_link": "https://filum.ai/docs/insights-experience",
+      "supported_channels": ["Web", "Mobile", "Zalo", "Email", "POS"],
+      "related_features": ["VoC_Surveys_PostPurchase", "Topic_Sentiment_Analysis"]
+  },
+  {
+      "id": "Customer_Profile_360",
+      "name": "Customer Profile with Interaction History",
+      "category": "Customer 360",
+      "sub_category": "Customers",
+      "description": "Provides a comprehensive single view of customer interaction history across all touchpoints",
+      "keywords": ["customer profile", "interaction history", "single view", "comprehensive", "touchpoints", "360"],
+      "sample_pain_points": ["difficult to get a single view of customer's interaction history"],
+      "docs_link": "https://filum.ai/docs/customer-360",
+      "supported_channels": ["Web", "Mobile", "Zalo", "Email", "POS"],
+      "related_features": ["AI_Agent_FAQ", "Tickets_Management"]
+  },
+  {
+      "id": "Topic_Sentiment_Analysis",
+      "name": "AI-Powered Topic & Sentiment Analysis",
+      "category": "VoC",
+      "sub_category": "Conversations/Surveys",
+      "description": "Automatically processes text feedback to extract key topics and sentiment, reducing manual analysis time",
+      "keywords": ["topic analysis", "sentiment analysis", "automated", "text processing", "survey responses", "themes"],
+      "sample_pain_points": ["manually analyzing thousands of open-ended survey responses is too time-consuming"],
+      "docs_link": "https://filum.ai/docs/voc-analysis",
+      "supported_channels": ["Web", "Mobile", "Zalo", "Email"],
+      "related_features": ["Journey_Experience_Analysis"]
+  },
+  {
+      "id": "Multi_Channel_Surveys",
+      "name": "Multi-Channel Survey Deployment",
+      "category": "Voice of Customer",
+      "sub_category": "Surveys",
+      "description": "Deploy surveys across Web, Mobile, Zalo, SMS, Email, QR codes, and POS systems",
+      "keywords": ["multi-channel", "survey deployment", "web", "mobile", "zalo", "SMS", "email", "QR", "POS"],
+      "sample_pain_points": ["need to reach customers across different channels for feedback"],
+      "docs_link": "https://filum.ai/docs/voc-surveys-multichannel",
+      "supported_channels": ["Web", "Mobile", "Zalo", "SMS", "Email", "QR", "POS"],
+      "related_features": ["VoC_Surveys_PostPurchase"]
+  },
+  {
+      "id": "Ticket_Management",
+      "name": "Comprehensive Ticket Management System",
+      "category": "AI Customer Service",
+      "sub_category": "Tickets",
+      "description": "Complete ticket management system for tracking and resolving customer support issues",
+      "keywords": ["ticket management", "support", "tracking", "resolution", "customer service"],
+      "sample_pain_points": ["struggling to track and manage customer support requests efficiently"],
+      "docs_link": "https://filum.ai/docs/tickets",
+      "supported_channels": ["Web", "Mobile", "Zalo", "Email"],
+      "related_features": ["AI_Agent_FAQ", "Customer_Profile_360"]
+  }
+]
